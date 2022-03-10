@@ -1,0 +1,64 @@
+/*nstall fonts  */
+@font-face {
+    font-family: Lobster-Reguler;
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+@font-face {
+    font-family: Outfit-VariableFont_wght;
+    src: url('../fonts/Outfit-VariableFont_wght.ttf');
+}
+body{
+    margin: 0 ;
+}
+.container{
+width: 70%;
+overflow: hidden;
+margin :auto;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    background: #b1b1b1;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    height: 550px;
+    background: blue;
+}
+.header .logo {
+    font-size: 25px;
+    float: left;
+    font-family : Lobster-Reguler;
+    color: #fff;
+}
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block ;
+    font-family: Outfit-VariableFont_wght;
+}
+.header .navigation li a {
+color: #fff;
+text-decoration: none;
+}
+.header .navigation li a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+.icon-kelas {
+    width: 500px;
+    height: 500px;
+    background-image: url('../images/foto.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.parent {
+    margin-top:100px ;
+
+}

@@ -1,0 +1,79 @@
+<style>
+
+    @font-face {
+    font-family: Lobster-Reguler;
+    src: url('../fonts/Lobster-Regular.ttf');
+    }
+
+    .wrap .header{
+  background: #E67E22;
+  height: 70px;
+  border: 1px solid orange;
+  margin-bottom:2px;
+  /*height: 50px;*/
+  padding: 2px 10px;
+}
+#title{
+  float: left;
+  width : 400px;
+  color : white;
+  font-size : 15px; 
+  font-weight : bold;
+  margin: 20px; 
+  margin-left: 2px;
+  font-family: Lobster-Reguler;
+
+} 
+
+#title2{
+  float: right;
+  width : 100px;
+  color : white;
+  font-size : 20px; 
+  font-weight : bold;
+  margin: 3px; 
+  margin-right: 2px;
+
+} 
+
+#title3{
+  float: right;
+  width : 150px;
+  color : white;
+  font-size : 20px; 
+  font-weight : bold;
+  margin: 3px; 
+  margin-right: 2px;
+
+} 
+#logo{
+  float: left;
+  height: 100px;
+  width: 100px; 
+  margin: 5px;
+  margin-left: 60px;
+}
+.wrapper .menu{
+ background: yellow;
+}
+
+.wrapper .menu ul{
+ padding: 0;
+ margin: 0;
+ background: gray;
+ overflow: hidden;
+}
+
+.wrapper .menu ul li{
+ float: left;
+ list-style-type: none;
+ padding: 10px;
+}
+
+.wrapper .menu ul li a{
+ text-decoration: none;
+ color: white;
+ padding-left: 45px;
+
+
+  </style>
